@@ -260,10 +260,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed
   jekyll-include-cache
-  jekyll-seo-tag
-  jekyll-sitemap
   webrick (~> 1.8)
 
 BUNDLED WITH
