@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-19T20:42:24+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mercedes Lovo</title><author><name>Mercedes Lovo</name></author><entry><title type="html">Nerts Equilibrium</title><link href="http://localhost:4000/2018/08/21/nerts-equilibrium.html" rel="alternate" type="text/html" title="Nerts Equilibrium" /><published>2018-08-21T00:00:00+02:00</published><updated>2018-08-21T00:00:00+02:00</updated><id>http://localhost:4000/2018/08/21/nerts-equilibrium</id><content type="html" xml:base="http://localhost:4000/2018/08/21/nerts-equilibrium.html"><![CDATA[<p>The Nernst equation is a fundamental equation in electrochemistry that is named after the German physical chemist Walther Nernst, who formulated it in the late 19th and early 20th centuries. It is crucial in understanding and predicting the behavior of electrochemical cells, such as batteries and fuel cells, as well as biological systems like neurons and muscle cells.</p>
+
+<p>The Nernst equation allows us to calculate the electrode potential under non-standard conditions, such as varying concentrations of reactants and products. It shows how changes in concentration affect the cell potential, which is crucial for understanding electrochemical processes and designing efficient electrochemical devices.</p>
+
+<p>In biological systems, is used to describe the equilibrium potential of ions across cell membranes, such as the resting membrane potential of neurons.  It helps to expresses the balance between the electrical and chemical driving forces on an ion, and may be stated as the equilibrium potential for an ion is directly proportional to the log of the ratio of the extracellular over the intracellular concentrations or:</p>
+
+<p>Em = RT/zF * log([ion outside the cell]/[ion inside of the cell]).</p>
+
+<p>Em= membrane equilibrium  potential</p>
+
+<p>R = gas constant = 8.314472 J · K-1</p>
+
+<p>T = temperature (Kelvin)</p>
+
+<p>F = Faraday’s constant = 9.65 x 104 C mol-1</p>
+
+<p>Lets take the case of Sodium. The graph below shows the Nerts equilibrium for different internal and external sodium concentrations.</p>
+
+<div>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <div id="myDiv"></div>
+    <script src="/assets/js/nerst.js"></script>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[The Nernst equation is a fundamental equation in electrochemistry that is named after the German physical chemist Walther Nernst, who formulated it in the late 19th and early 20th centuries. It is crucial in understanding and predicting the behavior of electrochemical cells, such as batteries and fuel cells, as well as biological systems like neurons and muscle cells.]]></summary></entry><entry><title type="html">Julia Set</title><link href="http://localhost:4000/2018/08/20/julia-set.html" rel="alternate" type="text/html" title="Julia Set" /><published>2018-08-20T00:00:00+02:00</published><updated>2018-08-20T00:00:00+02:00</updated><id>http://localhost:4000/2018/08/20/julia-set</id><content type="html" xml:base="http://localhost:4000/2018/08/20/julia-set.html"><![CDATA[<p>The Julia set is a mathematical concept named after the French mathematician Gaston Julia, who examined these sets in the early 20th century.</p>
+
+<p>In essence, a Julia set comprises complex numbers in the complex plane that display chaotic behavior when subjected to repeated iterations of a certain function. The quadratic polynomial f(z)=z2+c, where c is a complex constant, is the most commonly studied function for generating Julia sets.</p>
+
+<p>To visualize the Julia set for a specific c, one typically starts with a grid of points in the complex plane and applies the function f(z) to each point multiple times. Depending on the initial location of the point and the value of c, the point may either remain within a bounded region or escape to infinity with iteration. The points that remain bounded create the Julia set for that particular c.</p>
+
+<div>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <div id="myDiv"></div>
+    <script src="/assets/js/julia2.js"></script>
+</div>
+
+<p>What makes Julia sets fascinating is their intricate and often highly detailed fractal structure. They exhibit self-similarity at different scales, meaning that zooming into a Julia set reveals similar patterns as the overall set. This property makes them visually stunning and mathematically rich objects of study.</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[The Julia set is a mathematical concept named after the French mathematician Gaston Julia, who examined these sets in the early 20th century.]]></summary></entry><entry><title type="html">The Mandelbrot Set</title><link href="http://localhost:4000/2018/08/20/the-mandelbrot-set.html" rel="alternate" type="text/html" title="The Mandelbrot Set" /><published>2018-08-20T00:00:00+02:00</published><updated>2018-08-20T00:00:00+02:00</updated><id>http://localhost:4000/2018/08/20/the-mandelbrot-set</id><content type="html" xml:base="http://localhost:4000/2018/08/20/the-mandelbrot-set.html"><![CDATA[<p>The Mandelbrot set is a renowned mathematical construct named after mathematician Benoit Mandelbrot, who investigated it in the late 1970s and early 1980s. This set is closely linked to complex dynamics, fractal geometry, and the iteration of complex functions.</p>
+
+<p>In the Mandelbrot set, the parameter c varies for each pixel and is represented as x+yi, where x and y are the pixel’s coordinates in the image. These coordinates also serve as the initial values for z in the iteration process.</p>
+
+<p>The Mandelbrot set can be viewed as an assemblage of all possible Julia sets. Each point in the Mandelbrot set corresponds to a distinct cc value, transitioning from one Julia set to another as you move across the image. This creates a map-like visualization where each location depicts a unique Julia set defined by the corresponding c value.</p>
+
+<div>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <div id="myDiv"></div>
+    <script src="/assets/js/mandelbrot.js"></script>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[The Mandelbrot set is a renowned mathematical construct named after mathematician Benoit Mandelbrot, who investigated it in the late 1970s and early 1980s. This set is closely linked to complex dynamics, fractal geometry, and the iteration of complex functions.]]></summary></entry></feed>
