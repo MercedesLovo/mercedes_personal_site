@@ -1,5 +1,5 @@
 minimal_mistakes_skin: "mint"
-remote_theme: "mmistakes/minimal-mistakes@4.13.0"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # theme: minimal-mistakes-jekyll
 
@@ -69,7 +69,7 @@ include: ["_pages"]
 author:
   name     : "Mercedes Lovo"
   avatar   : "/assets/images/foto_escritorio.jpeg"
-  bio: "Psycologist, pacifist, pythonist and neuroscience lover"
+  bio: "Psycologist, pacifist, pythonist and neuroscience lover."
   location: "Cartagena, Spain"
   links:
     - label: "Email"

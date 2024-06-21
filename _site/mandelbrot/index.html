@@ -1,11 +1,10 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
-  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
 -->
-
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
@@ -13,11 +12,6 @@
 <!-- begin _includes/seo.html --><title>Mandelbrot -</title>
 <meta name="description" content="If the Julia set is a way to graphically represent the behavior of a function when evaluated recursively given a seed or initial value, remember that it involves assigning a color in the complex number plane to each initial value depending on whether the function converges or diverges, and in the latter case, how quickly it does so.">
 
-
-  <meta name="author" content="Mercedes Lovo">
-  
-  <meta property="article:author" content="Mercedes Lovo">
-  
 
 
 <meta property="og:type" content="article">
@@ -55,23 +49,38 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script type="text/javascript">
+<script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
 
 
     <!-- start custom head snippets -->
@@ -83,47 +92,26 @@
   </head>
 
   <body class="layout--single">
-    <nav class="skip-links">
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
 
-    
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
 
-<div class="masthead">
+    <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        
-        <a class="site-title" href="/">
-          
-          
-        </a>
+        <a class="site-title" href="/"></a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="/"
-                
-                
-              >Home</a>
+              <a href="/" >Home</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/about/"
-                
-                
-              >About</a>
+              <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/blog/"
-                
-                
-              >Blog</a>
+              <a href="/blog/" >Blog</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Toggle Menu</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -138,33 +126,32 @@
 
 
 
-
-
 <div id="main" role="main">
   
   <div class="sidebar sticky">
   
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+<div itemscope itemtype="http://schema.org/Person">
 
   
     <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/foto_escritorio.jpeg" alt="Mercedes Lovo" itemprop="image" class="u-photo">
-      </a>
+      
+
+      
+        <img src="/assets/images/foto_escritorio.jpeg" alt="Mercedes Lovo" itemprop="image">
+      
     </div>
   
 
   <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Mercedes Lovo</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>Psycologist, pacifist, pythonist and neuroscience lover</p>
-
-      </div>
+      <h3 class="author__name" itemprop="name">Mercedes Lovo</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Psycologist, pacifist, pythonist and neuroscience lover
+      </p>
     
   </div>
 
@@ -172,29 +159,31 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Cartagena, Spain</span>
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Cartagena, Spain</span>
         </li>
       
 
       
         
           
-            <li><a href="mailto:idalialovo7@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+            <li><a href="mailto:idalialovo7@gmail.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
           
         
           
-            <li><a href="https://twitter.com/LovoIdalia/with_replies" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+            <li><a href="https://twitter.com/LovoIdalia/with_replies"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
           
         
           
-            <li><a href="https://github.com/MercedesLovo" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/MercedesLovo"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
           
         
           
-            <li><a href="https://www.instagram.com/mercedes_lovo/?next=%2F" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+            <li><a href="https://www.instagram.com/mercedes_lovo/?next=%2F"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
           
         
+      
+
       
 
       
@@ -247,7 +236,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -260,41 +249,26 @@
   </div>
 
 
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Mandelbrot">
     <meta itemprop="description" content="If the Julia set is a way to graphically represent the behavior of a function when evaluated recursively given a seed or initial value, remember that it involves assigning a color in the complex number plane to each initial value depending on whether the function converges or diverges, and in the latter case, how quickly it does so.">
-    <meta itemprop="datePublished" content="2024-04-24T00:00:00+02:00">
+    <meta itemprop="datePublished" content="April 24, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/mandelbrot/" itemprop="url">Mandelbrot
-</a>
-          </h1>
+          <h1 id="page-title" class="page__title" itemprop="headline">Mandelbrot
+</h1>
           
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
-    
-  </p>
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
+
+
+  1 minute read
+</p>
+          
         </header>
       
 
@@ -332,9 +306,8 @@
 
 
         
-
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-04-24T00:00:00+02:00">April 24, 2024</time></p>
-
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-04-24T00:00:00+02:00">April 24, 2024</time></p>
+        
       </footer>
 
       <section class="page__share">
@@ -344,7 +317,9 @@
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fmandelbrot%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/mandelbrot/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fmandelbrot%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fmandelbrot%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -366,65 +341,46 @@
 
   
   
-    
-<div class="page__related">
-  
-  <h2 class="page__related-title">You May Also Enjoy</h2>
-  <div class="grid__wrapper">
-    
-      
-      
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
 
 
 
 <div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline">
       
         <a href="/julia/" rel="permalink">Julia
 </a>
       
     </h2>
     
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-  <p class="page__meta">
+
+
+
+  2 minute read
+</p>
     
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
     <p class="archive__item-excerpt" itemprop="description">What happens if I take a function and evaluate it at a value, then use the result to evaluate the same function again, and then with this new result evaluate...</p>
   </article>
 </div>
-
-    
-  </div>
-</div>
-
+        
+      </div>
+    </div>
   
   
 </div>
-
-      
     </div>
 
     
 
-    <div id="footer" class="page__footer">
+    <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -436,37 +392,35 @@
     
       
         
-          <li><a href="mailto:idalialovo7@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          <li><a href="mailto:idalialovo7@gmail.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
         
       
         
-          <li><a href="https://twitter.com/LovoIdalia/with_replies" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/LovoIdalia/with_replies"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://github.com/MercedesLovo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/MercedesLovo"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
-          <li><a href="https://www.instagram.com/mercedes_lovo/?next=%2F" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          <li><a href="https://www.instagram.com/mercedes_lovo/?next=%2F"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
         
       
     
 
-    
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000"></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 Mercedes Lovo. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/assets/js/main.min.js"></script>
-
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
 
 
