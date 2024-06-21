@@ -12,20 +12,14 @@ var store = [{
         "teaser": null
       },{
         "title": "Julia Set ",
-        "excerpt":"The Julia set is a mathematical concept named after the French mathematician Gaston Julia, who examined these sets in the early 20th century. In essence, a Julia set comprises complex numbers in the complex plane that display chaotic behavior when subjected to repeated iterations of a certain function. The quadratic...","categories": [],
+        "excerpt":"What happens if I take a function and evaluate it at a value, then use the result to evaluate the same function again, and then with this new result evaluate the same function again, and so on indefinitely. Let’s say I store these results in a set. Depending on the...","categories": [],
         "tags": [],
-        "url": "/2018/08/20/julia-set.html",
+        "url": "/2024/03/20/julia-set.html",
         "teaser": null
       },{
         "title": "The Mandelbrot Set",
-        "excerpt":"The Mandelbrot set is a renowned mathematical construct named after mathematician Benoit Mandelbrot, who investigated it in the late 1970s and early 1980s. This set is closely linked to complex dynamics, fractal geometry, and the iteration of complex functions. In the Mandelbrot set, the parameter c varies for each pixel...","categories": [],
+        "excerpt":"If the Julia set is a way to graphically represent the behavior of a function when evaluated recursively given a seed or initial value, remember that it involves assigning a color in the complex number plane to each initial value depending on whether the function converges or diverges, and in...","categories": [],
         "tags": [],
-        "url": "/2018/08/20/the-mandelbrot-set.html",
-        "teaser": null
-      },{
-        "title": "Nerts Equilibrium",
-        "excerpt":"The Nernst equation is a fundamental equation in electrochemistry that is named after the German physical chemist Walther Nernst, who formulated it in the late 19th and early 20th centuries. It is crucial in understanding and predicting the behavior of electrochemical cells, such as batteries and fuel cells, as well...","categories": [],
-        "tags": [],
-        "url": "/2018/08/21/nerts-equilibrium.html",
+        "url": "/2024/04/24/the-mandelbrot-set.html",
         "teaser": null
       }]
