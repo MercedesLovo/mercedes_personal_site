@@ -21,7 +21,7 @@ words_per_minute         : 200
 collections:
   authors:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:categories/:year/:month/:day/:title/
     
 defaults:
 # _authors
