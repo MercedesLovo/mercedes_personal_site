@@ -1,5 +1,5 @@
 ---
-permalink: /Mandelbrot/
+permalink: /mandelbrot/
 title: Mandelbrot
 ---
 If the Julia set is a way to graphically represent the behavior of a function when evaluated recursively given a seed or initial value, remember that it involves assigning a color in the complex number plane to each initial value depending on whether the function converges or diverges, and in the latter case, how quickly it does so.
