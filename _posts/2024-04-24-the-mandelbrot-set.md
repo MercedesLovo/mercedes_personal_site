@@ -22,7 +22,7 @@ Below is a dynamically created Julia set. The mouse position represents the  c o
 <div>
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <div id="myDiv"></div>
-    <script src="/assets/js/mandelbrot.js"></script>
+    <script src="{{ '/assets/js/mandelbrot.js' | relative_url }}"></script>
 </div>
 
 
