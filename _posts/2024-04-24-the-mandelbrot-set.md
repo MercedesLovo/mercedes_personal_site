@@ -13,7 +13,7 @@ That is, in Mandelbrot we will also call a function recursively and also store t
 <div>
 <img src= "{{ '/assets/images/mandelbrot.png' | relative_url }}" alt="1100px" width="1100px">
 </div>
-
+  
 As a result, we have the two related sets: we know that if we use a  c that converges in Mandelbrot to create a Julia set, it will converge at zero.
 
 Below is a dynamically created Julia set. The mouse position represents the  c of the formula, and the graph will show how the function behaves with each point as an initial value. Note that if you place the mouse where the Mandelbrot set converges, the Julia set converges at the initial value zero.
