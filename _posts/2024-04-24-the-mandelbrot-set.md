@@ -1,4 +1,12 @@
 ---
+layout: single
+title: "Mi primer post"
+date: 2024-06-22 10:00:00 -0400
+categories: 
+  - Blog
+tags:
+  - Jekyll
+  - GitHub Pages
 ---
 If the Julia set is a way to graphically represent the behavior of a function when evaluated recursively given a seed or initial value, remember that it involves assigning a color in the complex number plane to each initial value depending on whether the function converges or diverges, and in the latter case, how quickly it does so.
 
