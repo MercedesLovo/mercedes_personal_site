@@ -1,16 +1,4 @@
 var store = [{
-        "title": "Jill",
-        "excerpt":"Jill is an avid fruit grower based in the south of France.  ","categories": [],
-        "tags": [],
-        "url": "/authors/jill/",
-        "teaser": null
-      },{
-        "title": "Ted",
-        "excerpt":"Ted has been eating fruit since he was baby.  ","categories": [],
-        "tags": [],
-        "url": "/authors/ted/",
-        "teaser": null
-      },{
         "title": "Julia Set ",
         "excerpt":"What happens if I take a function and evaluate it at a value, then use the result to evaluate the same function again, and then with this new result evaluate the same function again, and so on indefinitely. Let’s say I store these results in a set. Depending on the...","categories": [],
         "tags": [],
