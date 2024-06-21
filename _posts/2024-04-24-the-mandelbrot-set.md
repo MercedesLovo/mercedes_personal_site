@@ -11,7 +11,7 @@ So, a map of what? It answers the question of for which values of c the Julia se
 That is, in Mandelbrot we will also call a function recursively and also store the resulting values in a set. The difference is that in this case, our initial value will always be zero. What we will change now is our  c  or constant. We can now move around our complex number plane and assign a color to each point depending on whether it corresponds to a  c  where the function diverges or not.
 
 <div>
-<img src= "{{ '/assets/images/mandelbrot.png' | relative_url }}" alt="1100px" width="1100px">
+<img src= "/mercedes_personal_site/assets/images/mandelbrot.png" alt="1100px" width="1100px">
 </div>
   
 As a result, we have the two related sets: we know that if we use a  c that converges in Mandelbrot to create a Julia set, it will converge at zero.
