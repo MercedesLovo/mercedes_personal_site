@@ -40,7 +40,7 @@ const data = [ {
     }
 }]
 
-Plotly.newPlot('myDiv', data, {autosize: false, height: 1000, width: 1000,hovermode:"cosest", zaxis: {scaleanchor: "x", scaleratio: 0.01}, yaxis: {scaleanchor: "x"}}, {responsive: true})
+Plotly.newPlot('myDiv', data, {autosize: false, height: 800, width: 800,hovermode:"cosest", zaxis: {scaleanchor: "x", scaleratio: 0.01}, yaxis: {scaleanchor: "x"}}, {responsive: true})
 
 myPlot.on("plotly_hover", data=>{
     let re = data.points[0].x

@@ -52,8 +52,8 @@ const layout = {
         }
     },
     autosize: false,
-    height: 1000,
-    width: 1000
+    height: 800,
+    width: 800
 };
 
 Plotly.newPlot(myPlot, data, layout);
