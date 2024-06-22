@@ -31,13 +31,8 @@ const data = [ {
     z: z,
     x: x,
     y: y,
-    type: 'contour',
-    autocontour:false,
-    contours:{
-        start:0,
-        end:1,
-        size:0.2
-    }
+    type: 'heatmap',
+    colorscale: 'Viridis'
 }]
 
 var config = {responsive: true}
