@@ -56,4 +56,6 @@ const layout = {
     width: 800
 };
 
-Plotly.newPlot(myPlot, data, layout);
+var config = {responsive: true}
+
+Plotly.newPlot(myPlot, data, layout, config);
