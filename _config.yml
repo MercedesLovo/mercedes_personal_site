@@ -69,7 +69,7 @@ include: ["_pages"]
 author:
   name     : "Mercedes Lovo"
   avatar   : "/assets/images/foto_escritorio.jpeg"
-  bio: "Psycologist, pacifist, pythonist and neuroscience lover."
+  bio: "Bioinformatician, psychologist, pacifist, pythonist and neuroscience lover."
   location: "Cartagena, Spain"
   links:
     - label: "Email"
