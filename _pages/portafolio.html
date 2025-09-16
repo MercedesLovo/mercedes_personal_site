@@ -1,0 +1,15 @@
+---
+permalink: /portafolio/
+title: Portafolio
+---
+
+<h2>Latest</h2>
+
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <h2><a href="{{ post.url | relative_url }}">{{ project.title }}</a></h2>
+      {{ project.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
