@@ -5,10 +5,10 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # Site Settings
 #locale                   : "en-US"
-title                    : #"Site Title"
+title                    : "Idalia Mercedes Lovo Montenegro"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Mercedes Lovo"
+name                     : "Idalia Mercedes Lovo"
 description              : #"An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "mercedes_personal_site" # the subpath of your site, e.g. "/blog"
